@@ -2389,7 +2389,11 @@ function App() {
 
       <header className="topbar">
         <a className="brand" href="#" aria-label="Inicio">
-          <img className="brand-logo" src="/brand/aves-logo.png" alt="AVES" />
+          <img
+            className="brand-logo"
+            src={`${import.meta.env.BASE_URL}brand/aves-logo.png`}
+            alt="AVES"
+          />
           <span className="brand-divider" aria-hidden="true" />
           <span className="product-name">
             <strong>Control de Producción</strong>
