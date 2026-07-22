@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+
+# Local Codex/work artifacts
+.agents/
+.codex/
+outputs/
+work/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
